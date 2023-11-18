@@ -353,6 +353,12 @@ public class Main_Menu extends javax.swing.JFrame {
 
         jLabel12.setText("Nama Kendaraan");
 
+        jTextField6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField6ActionPerformed(evt);
+            }
+        });
+
         jLabel13.setText("Merk Kendaraan");
 
         jTextField7.setToolTipText("");
@@ -374,13 +380,18 @@ public class Main_Menu extends javax.swing.JFrame {
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Mobil", "Motor" }));
 
         jButton9.setText("Simpan");
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout KendaraanLayout = new javax.swing.GroupLayout(Kendaraan);
         Kendaraan.setLayout(KendaraanLayout);
         KendaraanLayout.setHorizontalGroup(
             KendaraanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(KendaraanLayout.createSequentialGroup()
-                .addGap(186, 186, 186)
+                .addGap(228, 228, 228)
                 .addGroup(KendaraanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(KendaraanLayout.createSequentialGroup()
                         .addGap(72, 72, 72)
@@ -416,12 +427,12 @@ public class Main_Menu extends javax.swing.JFrame {
                     .addGroup(KendaraanLayout.createSequentialGroup()
                         .addGap(337, 337, 337)
                         .addComponent(jButton9)))
-                .addContainerGap(291, Short.MAX_VALUE))
+                .addContainerGap(249, Short.MAX_VALUE))
         );
         KendaraanLayout.setVerticalGroup(
             KendaraanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(KendaraanLayout.createSequentialGroup()
-                .addGap(89, 89, 89)
+                .addGap(129, 129, 129)
                 .addComponent(jLabel10)
                 .addGap(26, 26, 26)
                 .addGroup(KendaraanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -467,7 +478,7 @@ public class Main_Menu extends javax.swing.JFrame {
                     .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(12, 12, 12)
                 .addComponent(jButton9)
-                .addContainerGap(226, Short.MAX_VALUE))
+                .addContainerGap(186, Short.MAX_VALUE))
         );
 
         MainMenuPanel.add(Kendaraan, "card7");
@@ -670,6 +681,15 @@ public class Main_Menu extends javax.swing.JFrame {
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField1ActionPerformed
+
+    private void jTextField6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField6ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_jButton9ActionPerformed
 
     /**
      * @param args the command line arguments
